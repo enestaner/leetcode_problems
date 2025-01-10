@@ -17,7 +17,6 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 Given an integer array nums, return **true** if any value appears at least twice in the array, and return **false** if every element is distinct.
 
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
-
 Output: true
 
 #### 242. VALID ANAGRAM
@@ -25,7 +24,6 @@ Output: true
 Given two strings s and t, return **true** if t is an anagram of s, and **false** otherwise.
 
 Input: s = "anagram", t = "nagaram"
-
 Output: true
 
 ## MEDIUM
@@ -35,7 +33,13 @@ Output: true
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
  
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
-
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+#### 347. TOP K FREQUENT ELEMENTS
+
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
 
 ## HARD
