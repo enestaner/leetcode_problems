@@ -4,42 +4,24 @@
 
 #### 1. TWO SUM
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
-
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Answer: Insert all elements to map. Check if it is in the map first or second time then add the result vector.
 
 #### 217. CONTAINS DUPLICATE
 
-Given an integer array nums, return **true** if any value appears at least twice in the array, and return **false** if every element is distinct.
-
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
+Answer: First sort the array. Then check every element if the nearby element are same then return true.
 
 #### 242. VALID ANAGRAM
 
-Given two strings s and t, return **true** if t is an anagram of s, and **false** otherwise.
-
-Input: s = "anagram", t = "nagaram"
-Output: true
+Answer: First if the strings not same size return false. Then iterating elements of first string add each char to hash map then for the second one delete every char. If hash map's size is zero these are anagram otherwise not.
 
 ## MEDIUM
 
 #### 49. GROUP ANAGRAMS
 
-Given an array of strings strs, group the anagrams together. You can return the answer in any order.
- 
-Input: strs = ["eat","tea","tan","ate","nat","bat"]
-Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+Answer: Sort the string and add it to hash map. So if the anagram exists then add it inside of the related vector. If not add new vector.
 
 #### 347. TOP K FREQUENT ELEMENTS
 
-Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
-
-Input: nums = [1,1,1,2,2,3], k = 2
-Output: [1,2]
+Answer: First we build a hash map for calculate the each numbers' frequency. Then using priority queue we can take TOP K elements from it.
 
 ## HARD
