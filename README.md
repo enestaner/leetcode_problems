@@ -20,6 +20,10 @@ Answer: First if the strings not same size return false. Then iterating elements
 
 Answer: Sort the string and add it to hash map. So if the anagram exists then add it inside of the related vector. If not add new vector.
 
+#### 238. PRODUCT OF ARRAY EXCEPT SELF
+
+Answer: First we need to calculate product of the right and left sides of each element. Then while iterating just multiply left and right side of that element.
+
 #### 271. ENCODE AND DECODE STRINGS
 
 Answer: First add all strings to one string but after each string add '\0' value. While decoding iterate over the characters then if the characher is '\0' then add string to vector.
