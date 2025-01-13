@@ -24,6 +24,10 @@ Answer: 2 nested for loops and checking column, row and 9x9 block at the same ti
 
 Answer: Sort the string and add it to hash map. So if the anagram exists then add it inside of the related vector. If not add new vector.
 
+#### 128. LONGEST CONSECUTIVE SEQUENCE
+
+Answer: We will use priority queue to sort the nums. Then store the top of the queue and pop it. Then compare with new top if the difference is 1 then increase the temp value. If same value continue the loop, else reset the temp value.  
+
 #### 238. PRODUCT OF ARRAY EXCEPT SELF
 
 Answer: First we need to calculate product of the right and left sides of each element. Then while iterating just multiply left and right side of that element.
