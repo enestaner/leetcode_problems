@@ -16,6 +16,10 @@ Answer: First if the strings not same size return false. Then iterating elements
 
 ## MEDIUM
 
+#### 36. VALID SUDOKU
+
+Answer: 2 nested for loops and checking column, row and 9x9 block at the same time. If same char appears twice then return false.
+
 #### 49. GROUP ANAGRAMS
 
 Answer: Sort the string and add it to hash map. So if the anagram exists then add it inside of the related vector. If not add new vector.
