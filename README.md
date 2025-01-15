@@ -6,6 +6,10 @@
 
 Answer: Insert all elements to map. Check if it is in the map first or second time then add the result vector.
 
+#### 125. VALID PALINDROME
+
+Answer: First check the chars of string. If it is between 'a'-'z' or '0'-'9' add it directly to temp string. If it is between 'A'-'Z' then add 32 to make this lower case according to ASCII table.
+
 #### 217. CONTAINS DUPLICATE
 
 Answer: First sort the array. Then check every element if the nearby element are same then return true.
