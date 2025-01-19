@@ -20,6 +20,10 @@ Answer: First if the strings not same size return false. Then iterating elements
 
 ## MEDIUM
 
+#### 15. 3SUM
+
+Answer: First sort the array to use two pointer approach. After that iterate over array. Continue for duplicated nums. If the total zero add it to array then skip duplicates. If not either increase left pointer or decrease right pointer.
+
 #### 36. VALID SUDOKU
 
 Answer: 2 nested for loops and checking column, row and 9x9 block at the same time. If same char appears twice then return false.
